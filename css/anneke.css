@@ -1,0 +1,12 @@
+header[role=banner] {
+  margin-top: 5em;
+}
+
+#contact img {
+  width: 200px;
+}
+
+footer[role=contentinfo] {
+  margin-top: 5em;
+  text-align: center;
+}
