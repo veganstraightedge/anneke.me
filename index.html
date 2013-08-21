@@ -21,7 +21,7 @@
   <!-- Latest compiled and minified JavaScript -->
 </head>
 
-<body>
+<body id="home">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -30,11 +30,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="/" rel="home" class="navbar-brand">Anneke Hiatt</a>
+        <a href="#home" rel="home" class="navbar-brand">Anneke Hiatt</a>
       </div>
 
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
+          <li class="active"><a href="#shows">Shows</a></li>
           <li><a href="#bio">Bio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -44,33 +45,65 @@
 
   <div class="container">
     <header role="banner">
-
+      <h1>Anneke Hiatt</h1>
+      <h2>Watercolor Painter / Asset Artist for hire</h2>
     </header>
 
     <section role="main">
-      <h1>Anneke Hiatt</h1>
-      <h2>Watercolor Painter / Asset Artist for hire</h2>
+      <div id="shows">
+        <h3>Upcoming Exhibition at Found in Highland Park</h3>
+        <img src="img/shameless_selfie_by_kenyora22-d5rnle7--by-anneke-hiatt--anneke-dot-me.jpg" alt="Sample painting from upcoming show at Found" />
+        <img src="img/found.jpg" alt="Found Clothing in Highland Park" id="found" />
 
-      <img src="img/selfie-girl-by-anneke-hiattt--anneke-dot-me.jpg" alt="Sample painting from upcoming show at Found" />
+        <h4>
+          <time class="dt-start dtstart" datetime="2013-09-14T18:00-0700">September 14<sup>th</sup>
+          <b class="small-word">at</b>
+          <time class="dt-end dtend" datetime="2013-09-14T18:00-0700">6:00pm</time>&ndash;<time datetime="2013-09-14T21:00-0700">9:00pm</time>
+        </h4>
 
+        <p>Doors open at 6:00pm. Free admission. Reception. DJ and drinks.</p>
+        <p class="h-org">
+          <span class="p-name">
+            <a href="http://foundclothing.tumblr.com" title="Found Clothing Co." class="u-url url" rel="external" target="_BLANK">Found Clothing</a>
+          </span>
+          <a href="http://goo.gl/kTynO8" target="_BLANK" rel="external" title="Google Map for directions">
+            <span class="p-street-address street-address">6189 Figueroa St</span>
+            <span class="p-locality locality">Los Angeles</span>, <span class="p-region region" title="California">CA</span>
+            <span class="p-postal-code postal-code">90042</span>
+          </a>
+        </p>
+      </div> <!-- #shows -->
 
-      <div id="bio">
-        <h3>Bio</h3>
-        <p>Anneke (Awn-uh-kuh) is a Los Angeles based visual artist who works in a range of media including painting, drawing, and graphic design. Being most inspired by the human condition, much of her work revolves around, but is not limited to, the portrait. It is within the figure where she can examine sexuality, gender, morality, class, and the inevitability of isolation and the ineluctability of death.</p>
+      <div class="row">
 
-        <p>Her work has been exhibited in San Francisco and Los Angeles. She studied at the Los Angeles County High School for the Arts and earned her BFA at the San Francisco Art Institute.</p>
+        <div id="bio" class="col-lg-6">
+          <h3>Bio</h3>
+          <p>Anneke (Awn-uh-kuh) is a Los Angeles based visual artist who works in a range of media including painting, drawing, and graphic design. Being most inspired by the human condition, much of her work revolves around, but is not limited to, the portrait. It is within the figure where she can examine sexuality, gender, morality, class, and the inevitability of isolation and the ineluctability of death.</p>
 
-        <p>When she is not making art, you can find her searching for the meaning of life over tea ceremonies, vegan food, vipassana meditation retreats, buddhist temples, yoga class, brewing probiotic beverages like ginger beer and kombucha, petting cats, zip-lining through rainforests, paddle-boarding with crocodiles, or watching the Real Housewives franchise.</p>
-      </div> <!-- #bio -->
+          <p>Her work has been exhibited in San Francisco and Los Angeles. She studied at the Los Angeles County High School for the Arts and earned her BFA at the San Francisco Art Institute.</p>
 
-      <div id="contact" class="h-card vcard">
-        <h3>Contact</h3>
-        <img src="img/anneke-hiatt.jpg" alt="Anneke Hiatt's 'headshot'" class="u-photo photo" />
-        <span class="p-name">Anneke Hiatt</span>
-        <a href="mailto:me@anneke.me" class="u-email email">me@anneke.me</a>
-        <a href="https://twitter.com/awnuhkuh/"  class="u-url url" rel="me">@awnuhkuh on Twitter</a>
-        <a href="http://instagram.com/awnuhkuh/" class="u-url url" rel="me">@awnuhkuh on Instagram</a>
-      </div> <!-- #contact -->
+          <p>When she is not making art, you can find her searching for the meaning of life over tea ceremonies, vegan food, vipassana meditation retreats, buddhist temples, yoga class, brewing probiotic beverages like ginger beer and kombucha, petting cats, zip-lining through rainforests, paddle-boarding with crocodiles, or watching the Real Housewives franchise.</p>
+        </div> <!-- #bio -->
+
+        <div id="contact" class="h-card vcard col-lg-6">
+          <div class="media">
+            <a class="pull-left" href="#">
+              <img src="img/anneke-hiatt.jpg" alt="Anneke Hiatt's 'headshot'" class="u-photo photo" />
+            </a>
+            <div class="media-body">
+              <h3 class="media-heading">Contact <span class="p-name">Anneke Hiatt</span></h3>
+              <p>For exhibition or commission inquiries.</p>
+
+              <ul>
+              <li><a href="mailto:me@anneke.me" class="u-email email">me@anneke.me</a></li>
+              <li><a href="https://twitter.com/awnuhkuh/"  class="u-url url" rel="me">@awnuhkuh on Twitter</a></li>
+              <li><a href="http://instagram.com/awnuhkuh/" class="u-url url" rel="me">@awnuhkuh on Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- #contact -->
+
+      </div> <!-- .row -->
     </section>
 
     <footer role="contentinfo">

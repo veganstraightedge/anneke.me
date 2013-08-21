@@ -1,5 +1,37 @@
 header[role=banner] {
   margin-top: 5em;
+  text-align: center;
+}
+
+.small-word {
+  font-weight: normal;
+}
+
+#shows {
+  text-align: center;
+}
+
+
+.h-org .p-name,
+.h-org .p-street-address,
+.h-org .p-region,
+.h-org .p-postal-code {
+  margin-right: 1em;
+}
+
+
+#shows img {
+  max-width: 100%;
+}
+
+#shows,
+#bio,
+#contact {
+  padding-top: 5em;
+}
+
+#bio h3 {
+  margin-top: 0;
 }
 
 #contact img {
@@ -7,6 +39,6 @@ header[role=banner] {
 }
 
 footer[role=contentinfo] {
-  margin-top: 5em;
+  margin-top: 10em;
   text-align: center;
 }
