@@ -3,6 +3,23 @@ header[role=banner] {
   text-align: center;
 }
 
+header[role=banner] h1 {
+  font-size: 10em;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header[role=banner] h2 {
+  font-size: 3em;
+  font-weight: normal;
+  font-weight: 100;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+
 .small-word {
   font-weight: normal;
 }
