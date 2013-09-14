@@ -4,10 +4,22 @@ header[role=banner] {
 }
 
 header[role=banner] h1 {
-  font-size: 10em;
+  font-size: 4em;
   line-height: 100%;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  header[role=banner] h1 {
+    font-size: 8em;
+  }
+}
+
+@media (min-width: 992px) {
+  header[role=banner] h1 {
+    font-size: 10em;
+  }
 }
 
 header[role=banner] h2 {
