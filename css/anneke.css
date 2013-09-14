@@ -5,6 +5,7 @@ header[role=banner] {
 
 header[role=banner] h1 {
   font-size: 4em;
+  font-weight: bold;
   line-height: 100%;
   margin: 0;
   padding: 0;
@@ -23,7 +24,6 @@ header[role=banner] h1 {
 }
 
 header[role=banner] h2 {
-  font-size: 3em;
   font-weight: normal;
   font-weight: 100;
   line-height: 100%;
@@ -31,6 +31,19 @@ header[role=banner] h2 {
   padding: 0;
   color: #666;
 }
+
+@media (min-width: 768px) {
+  header[role=banner] h2 {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 992px) {
+  header[role=banner] h2 {
+    font-size: 4em;
+  }
+}
+
 
 .small-word {
   font-weight: normal;
