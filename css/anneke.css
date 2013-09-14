@@ -63,6 +63,7 @@ header[role=banner] h2 {
 
 
 #shows img {
+  margin-top: 1em;
   max-width: 90%;
 }
 
@@ -76,8 +77,9 @@ header[role=banner] h2 {
   margin-top: 0;
 }
 
-#contact img {
-  width: 200px;
+.h-card .u-photo {
+  max-width: 100%;
+  margin-bottom: 1em;
 }
 
 footer[role=contentinfo] {
