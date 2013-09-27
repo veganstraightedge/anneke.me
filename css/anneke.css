@@ -51,13 +51,19 @@ header[role=banner] h2 {
 
 
 .thumbnail {
+  padding: 0;
+  border: 0;
   margin-bottom: 2em;
 }
 
 .thumbnail img {
+  margin: 0;
   width: 100%;
 }
 
+.thumbnail .caption {
+  padding-left: 0;
+}
 
 .h-org .p-name,
 .h-org .p-street-address,
@@ -66,11 +72,6 @@ header[role=banner] h2 {
   margin-right: 1em;
 }
 
-
-#shows img {
-  margin-top: 1em;
-  max-width: 90%;
-}
 
 #shows,
 #bio,
