@@ -49,8 +49,13 @@ header[role=banner] h2 {
   font-weight: normal;
 }
 
-#shows {
-  text-align: center;
+
+.thumbnail {
+  margin-bottom: 2em;
+}
+
+.thumbnail img {
+  width: 100%;
 }
 
 
@@ -71,6 +76,10 @@ header[role=banner] h2 {
 #bio,
 #contact {
   padding-top: 5em;
+}
+
+#shows .p-location {
+  margin-left: 1em;
 }
 
 #bio h3 {
