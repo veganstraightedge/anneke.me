@@ -27,9 +27,14 @@ header[role=banner] h2 {
   font-weight: normal;
   font-weight: 100;
   line-height: 100%;
-  margin: 0;
+  margin: 0 0 .5em 0;
   padding: 0;
   color: #666;
+}
+
+header[role=banner] img {
+  width: 800px;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
