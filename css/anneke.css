@@ -101,13 +101,13 @@ header[role=banner] img {
 }
 
 
-#shows,
+#series,
 #bio,
 #contact {
   padding-top: 5em;
 }
 
-#shows .p-location {
+#series .p-location {
   margin-left: 1em;
 }
 
